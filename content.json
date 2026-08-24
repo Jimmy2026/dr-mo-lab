@@ -27,15 +27,12 @@
     "featured": [
       {
         "imageLabel": "Featured photo / event banner",
-        "image": null,
         "type": "Lab Update",
         "title": "Dr. Mo. Lab Welcomes 14 Undergraduate Researchers",
-        "excerpt": "Students from across OU's colleges — engineering, public health, arts & sciences, business — are now contributing to projects spanning AI, sustainability, and engineering education equity.",
-        "date": null
+        "excerpt": "Students from across OU's colleges — engineering, public health, arts & sciences, business — are now contributing to projects spanning AI, sustainability, and engineering education equity."
       },
       {
         "imageLabel": "Event photo",
-        "image": null,
         "type": "Award",
         "title": "Dr. Mo Wins Best DEI Paper at ASEE International Division 2023",
         "excerpt": "Dr. Moses Olayemi's paper on culturally relevant engineering education in Nigeria received the Best DEI Paper award at the ASEE Annual Conference & Exposition in Portland, Oregon.",
@@ -88,8 +85,7 @@
         "projectLabel": "Project",
         "project": "Project TBD",
         "tbd": true,
-        "linkedinUrl": "https://www.linkedin.com/in/aryanrsingh",
-        "websiteUrl": null
+        "linkedinUrl": "https://www.linkedin.com/in/aryanrsingh"
       },
       {
         "photo": "images/bestena-kisingiri.jpg",
@@ -99,8 +95,7 @@
         "projectLabel": "Project",
         "project": "Project TBD",
         "tbd": false,
-        "linkedinUrl": "https://www.linkedin.com/in/bestena-kisingiri-b48066278/",
-        "websiteUrl": null
+        "linkedinUrl": "https://www.linkedin.com/in/bestena-kisingiri-b48066278/"
       },
       {
         "photo": "images/damia-francis.jpg",
@@ -110,19 +105,15 @@
         "projectLabel": "Projects",
         "project": "\"What do we stand to gain?\": Examining Stakeholder & Host Community Perceptions of OU Study Abroad Programs to Africa",
         "tbd": false,
-        "linkedinUrl": "https://www.linkedin.com/in/damia-francis-63b606289",
-        "websiteUrl": null
+        "linkedinUrl": "https://www.linkedin.com/in/damia-francis-63b606289"
       },
       {
-        "photo": null,
         "name": "Daniel Pelumi",
         "role": "Undergraduate Researcher",
         "dept": "Department TBD",
         "projectLabel": "Project",
         "project": "Project TBD",
-        "tbd": true,
-        "linkedinUrl": null,
-        "websiteUrl": null
+        "tbd": true
       },
       {
         "photo": "images/ekaram-mohamadain.jpg",
@@ -132,8 +123,7 @@
         "projectLabel": "Project",
         "project": "Epidemiologic Impact of a Wearable Breast Ultrasound Device for Early Detection",
         "tbd": false,
-        "linkedinUrl": "https://www.linkedin.com/in/ekaram-mohamadain-musa-mohamed-272709206",
-        "websiteUrl": null
+        "linkedinUrl": "https://www.linkedin.com/in/ekaram-mohamadain-musa-mohamed-272709206"
       },
       {
         "photo": "images/fabrice-simpore.jpg",
@@ -143,8 +133,7 @@
         "projectLabel": "Project",
         "project": "AI Gun Detection in Higher Education",
         "tbd": false,
-        "linkedinUrl": "https://www.linkedin.com/in/fabrices26/",
-        "websiteUrl": null
+        "linkedinUrl": "https://www.linkedin.com/in/fabrices26/"
       },
       {
         "photo": "images/gino-ndiko.jpg",
@@ -154,8 +143,7 @@
         "projectLabel": "Project",
         "project": "Project TBD",
         "tbd": true,
-        "linkedinUrl": "https://www.linkedin.com/in/gino-ndiko-4b5312233",
-        "websiteUrl": null
+        "linkedinUrl": "https://www.linkedin.com/in/gino-ndiko-4b5312233"
       },
       {
         "photo": "images/maame-abena-adjeiwaa.jpg",
@@ -165,8 +153,7 @@
         "projectLabel": "Project",
         "project": "Project TBD",
         "tbd": true,
-        "linkedinUrl": "https://www.linkedin.com/in/maame-abena-adjeiwaa-851437339",
-        "websiteUrl": null
+        "linkedinUrl": "https://www.linkedin.com/in/maame-abena-adjeiwaa-851437339"
       },
       {
         "photo": "images/oumarou-gouba.jpg",
@@ -176,8 +163,7 @@
         "projectLabel": "Project",
         "project": "Project TBD",
         "tbd": true,
-        "linkedinUrl": "https://www.linkedin.com/in/oumarou-g-a1030726a",
-        "websiteUrl": null
+        "linkedinUrl": "https://www.linkedin.com/in/oumarou-g-a1030726a"
       },
       {
         "photo": "images/swelihle-mtshali.jpg",
@@ -187,8 +173,7 @@
         "projectLabel": "Project",
         "project": "\"From Vision To Action\": Strengthening Educational Policy for Equitable Development",
         "tbd": false,
-        "linkedinUrl": "https://www.linkedin.com/in/swelihle-nyakallo-mtshali",
-        "websiteUrl": null
+        "linkedinUrl": "https://www.linkedin.com/in/swelihle-nyakallo-mtshali"
       },
       {
         "photo": "images/tobie-dodson.jpg",
@@ -198,8 +183,7 @@
         "projectLabel": "Project",
         "project": "Project TBD",
         "tbd": true,
-        "linkedinUrl": "https://www.linkedin.com/in/tobie-dodson",
-        "websiteUrl": null
+        "linkedinUrl": "https://www.linkedin.com/in/tobie-dodson"
       },
       {
         "photo": "images/wonga-nogwanya.jpg",
@@ -209,8 +193,7 @@
         "projectLabel": "Project",
         "project": "AI and Job Security at the University of Oklahoma",
         "tbd": false,
-        "linkedinUrl": "https://www.linkedin.com/in/wonga-nogwanya-b790ba267",
-        "websiteUrl": null
+        "linkedinUrl": "https://www.linkedin.com/in/wonga-nogwanya-b790ba267"
       }
     ],
     "alumni": [
@@ -233,8 +216,7 @@
         "projectLabel": "Project",
         "project": "Project TBD",
         "tbd": false,
-        "linkedinUrl": "https://www.linkedin.com/in/carlyssacook",
-        "websiteUrl": null
+        "linkedinUrl": "https://www.linkedin.com/in/carlyssacook"
       }
     ]
   },
@@ -251,7 +233,6 @@
         "authors": "OO Mosobalaje, DI Adeniranye, PO Ojegbile, MA Aku, CS Ibeh, et al.",
         "venue": "SPE Nigeria Annual International Conference and Exhibition · SPE-235173-MS",
         "year": "2026",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -261,7 +242,6 @@
         "authors": "TA Musa, IS Osunbunmi, M Olayemi, OAA Eletta, Y Brijmohan, et al.",
         "venue": "2025 World Engineering Education Forum-Global Engineering Deans Council (WEEF-GEDC)",
         "year": "2025",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -271,7 +251,6 @@
         "authors": "J Pleasants, M Olayemi, BS Abbott, JM Vadjunec",
         "venue": "ASEE Annual Conference & Exposition",
         "year": "2025",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -281,7 +260,6 @@
         "authors": "OO Mosobalaje, M Olayemi",
         "venue": "ASEE Annual Conference & Exposition",
         "year": "2025",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -291,7 +269,6 @@
         "authors": "D Salau, E Osho, OO Adewumi, M Olayemi",
         "venue": "Proceedings from the International Research Symposium on Problem-Based Learning",
         "year": "2025",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -311,7 +288,6 @@
         "authors": "SM Prigmore, M Olayemi",
         "venue": "ASEE Midwest Section Conference",
         "year": "2024",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -321,7 +297,6 @@
         "authors": "OO Mosobalaje, MA Aku, TI Egbe, CS Ibeh, AO Aderibigbe, JA Ogbonna, et al.",
         "venue": "SPE Nigeria Annual International Conference and Exhibition · D021S009R008",
         "year": "2024",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -331,7 +306,6 @@
         "authors": "S Wei, M Olayemi",
         "venue": "ASEE Annual Conference & Exposition",
         "year": "2024",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -341,7 +315,6 @@
         "authors": "LNN Nguyen, J Kittur, J Okolie, M Olayemi",
         "venue": "ASEE Annual Conference & Exposition",
         "year": "2024",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -351,7 +324,6 @@
         "authors": "J Kittur, M Olayemi, T Harvey, H Taffe",
         "venue": "ASEE Annual Conference & Exposition",
         "year": "2024",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -361,7 +333,6 @@
         "authors": "M Olayemi",
         "venue": "ASEE Annual Conference & Exposition",
         "year": "2023",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -371,7 +342,6 @@
         "authors": "OO Mosobalaje, M Olayemi",
         "venue": "ASEE Annual Conference & Exposition",
         "year": "2023",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -381,7 +351,6 @@
         "authors": "M Olayemi, J Deboer, MJ Ahmadi",
         "venue": "ASEE Annual Conference & Exposition",
         "year": "2023",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -391,7 +360,6 @@
         "authors": "OO Adewumi, M Olayemi, NA Raji",
         "venue": "African Engineering Education Forum (AEEF 2023)",
         "year": "2023",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -401,7 +369,6 @@
         "authors": "IJF Ezika, M Olayemi, CT Orji",
         "venue": "5th Information Technology for Education and Development (ITED)",
         "year": "2022",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -411,7 +378,6 @@
         "authors": "M Olayemi, CN Vaye, V Dansu, J DeBoer",
         "venue": "ASEE Virtual Annual Conference",
         "year": "2021",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -421,7 +387,6 @@
         "authors": "M Olayemi, J DeBoer",
         "venue": "CoNECD (Collaborative Network for Engineering and Computing Diversity)",
         "year": "2021",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -431,7 +396,6 @@
         "authors": "M Olayemi, J DeBoer",
         "venue": "REES AAEE 2021 Conference: Engineering Education Research Capability Development",
         "year": "2021",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -441,7 +405,6 @@
         "authors": "C Haney, C Freitas, B Drinkard-McFarland, M Olayemi, A Dridi, A Napoli, et al.",
         "venue": "REES AAEE 2021 Conference: Engineering Education Research Capability Development",
         "year": "2021",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -451,7 +414,6 @@
         "authors": "Moses Olayemi",
         "venue": "International Conference on Engineering Education (ICEE)",
         "year": "2020",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -461,7 +423,6 @@
         "authors": "Moses Olayemi, Ahmed Al‑Ani",
         "venue": "ASEE Annual Conference",
         "year": "2019",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -471,7 +432,6 @@
         "authors": "TR Feyijimi, V Dansu, IO Osunbunmi, OI Elesemoyo, M Olayemi, et al.",
         "venue": "Computers and Education Open · 100372",
         "year": "2026",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -481,7 +441,6 @@
         "authors": "Moses Olayemi, Alice L. Pawley",
         "venue": "Journal of Engineering Education · Vol. 112, No. 3",
         "year": "2023",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -491,7 +450,6 @@
         "authors": "Moses Olayemi, Alice L. Pawley",
         "venue": "International Journal of STEM Education · Vol. 9, Art. 45",
         "year": "2022",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -501,7 +459,6 @@
         "authors": "Moses Olayemi, Swelihle Mtshali (Lab UG)",
         "venue": "Journal of Humanitarian Engineering · Vol. 8",
         "year": "2022",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -511,7 +468,6 @@
         "authors": "Moses Olayemi, Grace Njoroge",
         "venue": "Journal of Refugee Studies · Vol. 34, No. 2",
         "year": "2021",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -521,7 +477,6 @@
         "authors": "M Olayemi, M Tucker, M Choul, T Purekal, A Benitez, W Wheaton, et al.",
         "venue": "Journal on Education in Emergencies · Vol. 7, Issue 2, pp. 104-151",
         "year": "2021",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -531,7 +486,6 @@
         "authors": "M Olayemi, M Tucker, M Choul, T Purekal, A Benitez, W Wheaton, et al.",
         "venue": "Inter-agency Network for Education in Emergencies",
         "year": "2021",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -541,7 +495,6 @@
         "authors": "Moses Olayemi, Sarah K. Benson",
         "venue": "Educational Psychology Review · Vol. 32, Issue 1",
         "year": "2020",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -551,7 +504,6 @@
         "authors": "Moses Olayemi",
         "venue": "Sustainability · Vol. 11, No. 15",
         "year": "2019",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -561,7 +513,6 @@
         "authors": "Moses Olayemi",
         "venue": "Purdue University · Bilsland Dissertation Fellowship",
         "year": "2023",
-        "award": null,
         "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
       },
       {
@@ -570,9 +521,7 @@
         "title": "Sustainable Aviation: The Journey to Flying Net Zero",
         "authors": "Mercy Kokushubira (Lab Undergraduate)",
         "venue": "OU Brainstorm Magazine · University of Oklahoma",
-        "year": "2025",
-        "award": null,
-        "scholarLink": null
+        "year": "2025"
       },
       {
         "type": "magazine",
@@ -580,9 +529,7 @@
         "title": "Bridging the Gap: Engineering Education in Refugee Camps",
         "authors": "Moses Olayemi, Bestena Kisingiri (Lab UG)",
         "venue": "OU Research Magazine · Spring 2024",
-        "year": "2024",
-        "award": null,
-        "scholarLink": null
+        "year": "2024"
       },
       {
         "type": "magazine",
@@ -590,9 +537,7 @@
         "title": "Women in Engineering: Voices from Nigeria",
         "authors": "Moses Olayemi, Damia Francis (Lab UG)",
         "venue": "IEEE Women in Engineering Magazine · Dec 2023",
-        "year": "2023",
-        "award": null,
-        "scholarLink": null
+        "year": "2023"
       },
       {
         "type": "magazine",
@@ -600,9 +545,7 @@
         "title": "AI and the Future of Engineering Education",
         "authors": "Moses Olayemi, AbdulMalik Shodunke (Lab UG)",
         "venue": "EDUCAUSE Review · Nov 2023",
-        "year": "2023",
-        "award": null,
-        "scholarLink": null
+        "year": "2023"
       },
       {
         "type": "magazine",
@@ -610,9 +553,7 @@
         "title": "Engineering Pathways: Building Bridges from High School to College",
         "authors": "Moses Olayemi, Wonga Nogwanya (Lab UG)",
         "venue": "OU College of Engineering Magazine · Fall 2024",
-        "year": "2024",
-        "award": null,
-        "scholarLink": null
+        "year": "2024"
       }
     ]
   },
@@ -630,14 +571,12 @@
       {
         "iconType": "pin",
         "label": "Office",
-        "value": "Felgar Hall 222H · Norman, OK 73019",
-        "href": null
+        "value": "Felgar Hall 222H · Norman, OK 73019"
       },
       {
         "iconType": "building",
         "label": "Department",
-        "value": "Engineering Pathways · Gallogly College of Engineering · University of Oklahoma",
-        "href": null
+        "value": "Engineering Pathways · Gallogly College of Engineering · University of Oklahoma"
       }
     ],
     "formHeading": "Send a Message",
@@ -670,7 +609,7 @@
         "href": "https://www.linkedin.com/in/moses-olayemi"
       }
     ],
-    "copyrightText": "© 2025 Dr. Mo. Lab · Dr. Moses Olayemi · University of Oklahoma ·",
+    "copyrightText": "© 2026 Dr. Mo. Lab · Dr. Moses Olayemi · University of Oklahoma ·",
     "copyrightHighlight": "Boomer Sooner",
     "tagline": "Developing Researchers for Multidisciplinary Outreach"
   }
