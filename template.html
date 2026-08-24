@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{site.title}}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <style>
+{{{CSS_BLOCK}}}
+    </style>
+</head>
+<body>
+
+    <!-- ══ NAV ══ -->
+    <nav>
+        <a class="nav-brand" href="#hero" data-scroll>
+            <div class="nav-logo">
+                <img src="{{site.logo}}" alt="{{site.labName}} logo" />
+            </div>
+            <div class="nav-name">
+                {{site.labName}}
+                <span>{{site.labTagline}}</span>
+            </div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#hero" data-scroll class="active">Home</a></li>
+            <li><a href="#updates" data-scroll>Updates</a></li>
+            <li><a href="#team" data-scroll>Team</a></li>
+            <li><a href="#publications" data-scroll>Publications</a></li>
+            <li><a href="#contact" data-scroll>Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-nav" id="mobileNav">
+        <button class="mobile-close" id="mobileClose">✕</button>
+        <a href="#hero" data-scroll>Home</a>
+        <a href="#updates" data-scroll>Updates</a>
+        <a href="#team" data-scroll>Team</a>
+        <a href="#publications" data-scroll>Publications</a>
+        <a href="#contact" data-scroll>Contact</a>
+    </div>
+
+    <main>
+
+        <!-- ══ HERO ══ -->
+        <section id="hero" style="padding:0; scroll-margin-top:0;">
+            <div class="hero-visual">
+                <div class="hero-visual-grid"></div>
+                <div class="hero-visual-glow"></div>
+                <img src="{{hero.bgImage}}" alt="{{site.labName}} Research Graphic" class="hero-bg-image"/>
+            </div>
+            <div class="hero-text">
+                <p class="hero-mission-tag">{{hero.missionTag}}</p>
+                <h1 class="hero-h1">{{{hero.headingHtml}}}</h1>
+                <p class="hero-desc">{{hero.description}}</p>
+                <div class="hero-ctas">
+                    <a href="{{hero.ctaPrimaryHref}}" data-scroll class="btn-primary">{{hero.ctaPrimaryText}}</a>
+                    <a href="{{hero.ctaSecondaryHref}}" data-scroll class="btn-secondary">{{hero.ctaSecondaryText}}</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══ ACRONYM REVEAL ══ -->
+        <section id="acronym">
+            <div class="acronym-inner">
+                <div>
+                    <p class="acronym-tag">{{acronym.tag}}</p>
+                    <div id="acronymLines">
+                        <p class="acro-line" data-delay="0"><span class="acro-letter">D</span>eveloping</p>
+                        <p class="acro-line" data-delay="150"><span class="acro-letter">r</span>esearchers for</p>
+                        <p class="acro-line" data-delay="300"><span class="acro-letter">M</span>ultidisciplinary</p>
+                        <p class="acro-line" data-delay="450"><span class="acro-letter">o</span>utreach<span style="color:var(--crimson-light);">.</span></p>
+                    </div>
+                    <p class="acronym-body">{{{acronym.bodyHtml}}}</p>
+                </div>
+                <div class="acronym-photo">
+                    <img src="{{acronym.photo}}" alt="{{site.labName}} team"/>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══ UPDATES ══ -->
+        <section id="updates">
+            <div class="container">
+                <p class="section-label">{{updates.sectionLabel}}</p>
+                <h2 class="section-title">{{{updates.sectionTitleHtml}}}</h2>
+                <p class="section-subtitle">{{updates.sectionSubtitle}}</p>
+                <div class="updates-layout">
+                    <div>
+{{#each updates.featured}}
+                        <div class="update-featured reveal">
+{{#if image}}
+                            <div class="update-img-area" role="img" aria-label="{{imageLabel}}" style="background-image:url('{{image}}');background-size:cover;background-position:center;"></div>
+{{else}}
+                            <div class="update-img-area"><span>{{imageLabel}}</span></div>
+{{/if}}
+                            <div class="update-body">
+                                <p class="update-type">{{type}}</p>
+                                <h3 class="update-title">{{title}}</h3>
+                                <p class="update-excerpt">{{excerpt}}</p>
+{{#if date}}
+                                <p class="update-date">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                                    {{date}}
+                                </p>
+{{/if}}
+                            </div>
+                        </div>
+{{/each}}
+                    </div>
+                    <div class="updates-sidebar">
+{{#each updates.mini}}
+                        <div class="update-mini reveal">
+                            <p class="update-type">{{type}}</p>
+                            <p class="update-mini-title">{{title}}</p>
+                            <p class="update-mini-date">{{date}}</p>
+                        </div>
+{{/each}}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══ TEAM ══ -->
+        <section id="team" class="adinkra-bg">
+            <div class="container">
+                <p class="section-label">{{team.sectionLabel}}</p>
+                <h2 class="section-title">{{{team.sectionTitleHtml}}}</h2>
+                <p class="section-subtitle">{{team.sectionSubtitle}}</p>
+
+                <!-- PI -->
+                <div class="pi-card reveal">
+                    <div class="pi-photo">
+                        <img src="{{pi.photo}}" alt="{{pi.name}}"/>
+                    </div>
+                    <div>
+                        <p class="pi-role">{{pi.role}}</p>
+                        <h3 class="pi-name">{{pi.name}}</h3>
+                        <p class="pi-title">{{pi.title}}</p>
+                        <p class="pi-bio">{{pi.bio}}</p>
+                        <div class="pi-links">
+{{#if pi.scholarUrl}}
+                            <a href="{{pi.scholarUrl}}" target="_blank" class="pi-link">📚 Google Scholar</a>
+{{/if}}
+                            <a href="#contact" data-scroll class="pi-link">✉️ Contact</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Current Members -->
+                <p class="team-section-label">{{team.currentLabel}}</p>
+                <div class="team-rule"></div>
+
+                <div class="team-grid">
+{{#each team.current}}
+                    <div class="member-card{{#if tbd}} tbd{{/if}} reveal">
+                        <div class="member-photo">
+{{#if hasPhoto}}
+                            <img src="{{photo}}" alt="{{name}}"/>
+{{else}}
+                            <span class="member-initials" aria-label="No photo available">{{initials}}</span>
+{{/if}}
+                        </div>
+                        <div class="member-info">
+                            <p class="member-name">{{name}}</p>
+                            <p class="member-role">{{role}}</p>
+                            <p class="member-dept">{{dept}}</p>
+                            <p class="member-project-label">{{projectLabel}}</p>
+                            <p class="member-project">{{project}}</p>
+{{#if hasLinks}}
+                            <div class="member-links">
+{{#if websiteUrl}}
+                                <a href="{{websiteUrl}}" target="_blank" class="member-link">Website</a>
+{{/if}}
+{{#if linkedinUrl}}
+                                <a href="{{linkedinUrl}}" target="_blank" class="member-link">LinkedIn</a>
+{{/if}}
+                            </div>
+{{/if}}
+                        </div>
+                    </div>
+{{/each}}
+                </div>
+
+                <!-- Alumni -->
+{{#if team.alumni}}
+                <div style="margin-top: 80px;">
+                    <p class="team-section-label">{{team.alumniLabel}}</p>
+                    <div class="team-rule"></div>
+
+                    <div class="team-grid">
+{{#each team.alumni}}
+                        <div class="member-card{{#if tbd}} tbd{{/if}} reveal">
+                            <div class="member-photo">
+{{#if hasPhoto}}
+                                <img src="{{photo}}" alt="{{name}}"/>
+{{else}}
+                                <span class="member-initials" aria-label="No photo available">{{initials}}</span>
+{{/if}}
+                            </div>
+                            <div class="member-info">
+                                <p class="member-name">{{name}}</p>
+                                <p class="member-role">{{role}}</p>
+                                <p class="member-dept">{{dept}}</p>
+                                <p class="member-project-label">{{projectLabel}}</p>
+                                <p class="member-project">{{project}}</p>
+{{#if hasLinks}}
+                                <div class="member-links">
+{{#if websiteUrl}}
+                                    <a href="{{websiteUrl}}" target="_blank" class="member-link">Website</a>
+{{/if}}
+{{#if linkedinUrl}}
+                                    <a href="{{linkedinUrl}}" target="_blank" class="member-link">LinkedIn</a>
+{{/if}}
+                                </div>
+{{/if}}
+                            </div>
+                        </div>
+{{/each}}
+                    </div>
+                </div>
+{{/if}}
+
+            </div>
+        </section>
+
+        <!-- ══ PUBLICATIONS ══ -->
+        <section id="publications">
+            <div class="container">
+                <p class="section-label">{{publications.sectionLabel}}</p>
+                <h2 class="section-title">{{publications.sectionTitle}}</h2>
+                <p class="section-subtitle">{{publications.sectionSubtitle}}</p>
+
+                <div class="pub-search-wrap">
+                    <div class="pub-search-icon">🔍</div>
+                    <input type="text" class="pub-search" id="pubSearch" placeholder="{{publications.searchPlaceholder}}" />
+                </div>
+
+                <div class="pub-columns">
+                    <div class="pub-sidebar">
+                        <h3>Categories</h3>
+                        <button class="cat-btn active" onclick="filterCat('all',this)">
+                            All Publications <span class="cat-count" id="count-all">{{publications.counts.all}}</span>
+                        </button>
+                        <button class="cat-btn" onclick="filterCat('journal',this)">
+                            Journal Articles <span class="cat-count" id="count-journal">{{publications.counts.journal}}</span>
+                        </button>
+                        <button class="cat-btn" onclick="filterCat('conference',this)">
+                            Conference Papers <span class="cat-count" id="count-conference">{{publications.counts.conference}}</span>
+                        </button>
+                        <button class="cat-btn" onclick="filterCat('dissertation',this)">
+                            Dissertations <span class="cat-count" id="count-dissertation">{{publications.counts.dissertation}}</span>
+                        </button>
+                        <button class="cat-btn" onclick="filterCat('magazine',this)">
+                            Magazine &amp; Other <span class="cat-count" id="count-magazine">{{publications.counts.magazine}}</span>
+                        </button>
+                    </div>
+
+                    <div class="pub-list" id="pubList">
+{{#each publications.items}}
+                        <div class="pub-card" data-type="{{type}}" data-text="{{searchText}}">
+                            <div class="pub-card-top">
+                                <p class="pub-title">{{title}}</p>
+                                <span class="pub-type-badge badge-{{type}}">{{badge}}</span>
+                            </div>
+                            <p class="pub-authors">{{authors}}</p>
+                            <p class="pub-venue">{{venue}}</p>
+{{#if award}}
+                            <p class="pub-award">🏆 {{award}}</p>
+{{/if}}
+                            <div class="pub-card-bottom">
+                                <span class="pub-year-pill">{{year}}</span>
+{{#if scholarLink}}
+                                <a href="{{scholarLink}}" target="_blank" class="pub-scholar-link">View on Scholar ↗</a>
+{{/if}}
+                            </div>
+                        </div>
+{{/each}}
+                        <div class="pub-empty" id="noResults" style="display:none;">
+                            No publications match your search.
+                        </div>
+                    </div><!-- /pub-list -->
+                </div><!-- /pub-columns -->
+
+                <div class="pub-pagination" id="pubPagination">
+                    <div class="pub-items-per-page">
+                        <label for="itemsPerPage">Items per page:</label>
+                        <select id="itemsPerPage">
+                            <option value="5">5</option>
+                            <option value="10" selected>10</option>
+                            <option value="20">20</option>
+                            <option value="0">All</option>
+                        </select>
+                    </div>
+                    <div class="pub-page-nav">
+                        <button id="prevPage" disabled>Prev</button>
+                        <span class="page-info" id="pageInfo">Page 1 of 1</span>
+                        <button id="nextPage" disabled>Next</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ══ CONTACT ══ -->
+        <section id="contact" class="adinkra-bg">
+            <div class="container">
+                <p class="section-label">{{contact.sectionLabel}}</p>
+                <h2 class="section-title">{{{contact.sectionTitleHtml}}}</h2>
+                <p style="font-size:0.98rem;line-height:1.85;color:var(--charcoal-mid);font-weight:300;max-width:560px;">{{contact.intro}}</p>
+                <div class="contact-layout">
+                    <div class="contact-info">
+{{#each contact.items}}
+                        <div class="contact-item">
+                            <div class="contact-icon">
+{{#if iconIsMail}}
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#841617" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+{{/if}}
+{{#if iconIsPin}}
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#841617" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+{{/if}}
+{{#if iconIsBuilding}}
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#841617" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+{{/if}}
+                            </div>
+                            <div>
+                                <p class="contact-item-label">{{label}}</p>
+{{#if href}}
+                                <p class="contact-item-value"><a href="{{href}}">{{value}}</a></p>
+{{/if}}
+{{#if hrefMissing}}
+                                <p class="contact-item-value">{{value}}</p>
+{{/if}}
+                            </div>
+                        </div>
+{{/each}}
+                    </div>
+                    <div class="contact-form reveal">
+                        <h3>{{contact.formHeading}}</h3>
+                        <p>{{contact.formSubtext}}</p>
+                        <div class="form-group">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-input" placeholder="Your name"/>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-input" placeholder="your@email.com"/>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Subject</label>
+                            <select class="form-select">
+                                <option value="">{{contact.subjectPlaceholder}}</option>
+{{#each contact.subjectOptions}}
+                                <option>{{this}}</option>
+{{/each}}
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-textarea" placeholder="Your message..."></textarea>
+                        </div>
+                        <button class="form-submit" onclick="handleContactSubmit(event)">{{contact.submitText}}</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3>{{footer.brandName}}</h3>
+                    <p>{{{footer.brandTextHtml}}}</p>
+                </div>
+                <div class="footer-col"><h4>Navigate</h4><ul>
+                        <li><a href="#hero" data-scroll>Home</a></li>
+                        <li><a href="#updates" data-scroll>Updates</a></li>
+                        <li><a href="#team" data-scroll>Team</a></li>
+                        <li><a href="#publications" data-scroll>Publications</a></li>
+                    </ul></div>
+                <div class="footer-col"><h4>Lab</h4><ul>
+                        <li><a href="#contact" data-scroll>Contact</a></li>
+                    </ul></div>
+                <div class="footer-col"><h4>Links</h4><ul>
+{{#each footer.externalLinks}}
+                        <li><a href="{{href}}" target="_blank">{{label}}</a></li>
+{{/each}}
+                    </ul></div>
+            </div>
+            <div class="footer-bottom">
+                <p>{{footer.copyrightText}}{{#if footer.copyrightHighlight}} <span>{{footer.copyrightHighlight}}</span>{{/if}}</p>
+                <p class="footer-ou">{{footer.tagline}}</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+{{{JS_BLOCK}}}
+    </script>
+</body>
+</html>

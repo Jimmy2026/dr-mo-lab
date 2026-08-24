@@ -1,0 +1,677 @@
+{
+  "site": {
+    "title": "Dr. Mo. Lab — Developing Researchers for Multidisciplinary Outreach | OU",
+    "labName": "Dr. Mo. Lab",
+    "labTagline": "Developing Researchers for Multidisciplinary Outreach",
+    "logo": "images/logo.jpg"
+  },
+  "hero": {
+    "missionTag": "Mission",
+    "headingHtml": "Research that builds<br/>\n<em>pathways</em> to equity<br/> in STEM education.",
+    "description": "Dr. Mo. Lab advances equitable and inclusive engineering education through research that responds to the needs of diverse students, educators, and communities. We explore how culture, context, and access shape opportunities to learn, teach, and participate in STEM, developing approaches that are culturally relevant, globally informed, and grounded in the communities they serve.",
+    "bgImage": "images/hero-bg.jpg",
+    "ctaPrimaryText": "Explore Publications",
+    "ctaPrimaryHref": "#publications",
+    "ctaSecondaryText": "Meet the Team",
+    "ctaSecondaryHref": "#team"
+  },
+  "acronym": {
+    "tag": "What Dr. Mo. stands for",
+    "bodyHtml": "DRMO Lab is a research group dedicated to <strong>developing researchers and advancing multidisciplinary approaches</strong> to engineering education and outreach. We work across <strong>disciplines, institutions, and communities</strong> to create research that is responsive to real-world needs while expanding opportunities for students and researchers to engage in meaningful scholarship. Through collaboration and outreach, we seek to <strong>connect research with the people and communities it is meant to serve</strong>.",
+    "photo": "images/team-photo.jpg"
+  },
+  "updates": {
+    "sectionLabel": "Lab News",
+    "sectionTitleHtml": "Recent <em>Updates</em>",
+    "sectionSubtitle": "Milestones, awards, and happenings from the Dr. Mo. Lab community.",
+    "featured": [
+      {
+        "imageLabel": "Featured photo / event banner",
+        "image": null,
+        "type": "Lab Update",
+        "title": "Dr. Mo. Lab Welcomes 14 Undergraduate Researchers",
+        "excerpt": "Students from across OU's colleges — engineering, public health, arts & sciences, business — are now contributing to projects spanning AI, sustainability, and engineering education equity.",
+        "date": null
+      },
+      {
+        "imageLabel": "Event photo",
+        "image": null,
+        "type": "Award",
+        "title": "Dr. Mo Wins Best DEI Paper at ASEE International Division 2023",
+        "excerpt": "Dr. Moses Olayemi's paper on culturally relevant engineering education in Nigeria received the Best DEI Paper award at the ASEE Annual Conference & Exposition in Portland, Oregon.",
+        "date": "June 2023"
+      }
+    ],
+    "mini": [
+      {
+        "type": "Publication",
+        "title": "Sustainable Aviation paper published in OU Brainstorm Magazine",
+        "date": "2025"
+      },
+      {
+        "type": "New Project",
+        "title": "Expanding Localized Engineering research to Azraq Refugee Camp, Jordan",
+        "date": "Ongoing"
+      },
+      {
+        "type": "Community",
+        "title": "Collaboration with the African Engineering Education Fellows network",
+        "date": "Ongoing"
+      },
+      {
+        "type": "Outreach",
+        "title": "Dr. Mo invited to speak at an international engineering education symposium",
+        "date": "Ongoing"
+      }
+    ]
+  },
+  "pi": {
+    "photo": "images/moses-olayemi.jpg",
+    "role": "Principal Investigator",
+    "name": "Dr. Moses Olayemi",
+    "title": "Assistant Professor of Engineering Pathways · Gallogly College of Engineering · University of Oklahoma",
+    "bio": "Dr. Moses Olayemi (Dr. Mo) is a scholar at the intersection of STEM education, culturally relevant pedagogy, and socioeconomic development. Originally from Nigeria, he holds a B.Sc. in Chemical Engineering from the University of Lagos and a Ph.D. in Engineering Education from Purdue University, where he was awarded the Bilsland Dissertation Fellowship. His work has been recognized internationally — his paper on culturally relevant engineering education in Nigeria won the ASEE International Division's Best DEI Paper in 2023. At OU, he teaches Introduction to Engineering Thinking and is known as one of the college's most student-centered instructors.",
+    "scholarUrl": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+  },
+  "team": {
+    "sectionLabel": "The People",
+    "sectionTitleHtml": "Meet the <em>Team</em>",
+    "sectionSubtitle": "A diverse, globally-minded group of researchers and scholars committed to transforming engineering education.",
+    "currentLabel": "Current Members",
+    "alumniLabel": "Alumni",
+    "current": [
+      {
+        "photo": "images/aryan-singh.jpg",
+        "name": "Aryan Singh",
+        "role": "Undergraduate Researcher",
+        "dept": "Michael F. Price College of Business · Management Information Systems",
+        "projectLabel": "Project",
+        "project": "Project TBD",
+        "tbd": true,
+        "linkedinUrl": "https://www.linkedin.com/in/aryanrsingh",
+        "websiteUrl": null
+      },
+      {
+        "photo": "images/bestena-kisingiri.jpg",
+        "name": "Bestena Kisingiri",
+        "role": "Undergraduate Researcher",
+        "dept": "Environmental Science",
+        "projectLabel": "Project",
+        "project": "Project TBD",
+        "tbd": false,
+        "linkedinUrl": "https://www.linkedin.com/in/bestena-kisingiri-b48066278/",
+        "websiteUrl": null
+      },
+      {
+        "photo": "images/damia-francis.jpg",
+        "name": "Damia Francis",
+        "role": "Undergraduate Researcher",
+        "dept": "Dodge College of Arts & Sciences · Psychology",
+        "projectLabel": "Projects",
+        "project": "\"What do we stand to gain?\": Examining Stakeholder & Host Community Perceptions of OU Study Abroad Programs to Africa",
+        "tbd": false,
+        "linkedinUrl": "https://www.linkedin.com/in/damia-francis-63b606289",
+        "websiteUrl": null
+      },
+      {
+        "photo": null,
+        "name": "Daniel Pelumi",
+        "role": "Undergraduate Researcher",
+        "dept": "Department TBD",
+        "projectLabel": "Project",
+        "project": "Project TBD",
+        "tbd": true,
+        "linkedinUrl": null,
+        "websiteUrl": null
+      },
+      {
+        "photo": "images/ekaram-mohamadain.jpg",
+        "name": "Ekaram Mohamadain Musa Mohamed",
+        "role": "Undergraduate Researcher",
+        "dept": "Hudson College of Public Health · Public Health / Data Analytics",
+        "projectLabel": "Project",
+        "project": "Epidemiologic Impact of a Wearable Breast Ultrasound Device for Early Detection",
+        "tbd": false,
+        "linkedinUrl": "https://www.linkedin.com/in/ekaram-mohamadain-musa-mohamed-272709206",
+        "websiteUrl": null
+      },
+      {
+        "photo": "images/fabrice-simpore.jpg",
+        "name": "Fabrice Simpore",
+        "role": "Undergraduate Researcher",
+        "dept": "Gallogly College of Engineering · Mechanical Engineering",
+        "projectLabel": "Project",
+        "project": "AI Gun Detection in Higher Education",
+        "tbd": false,
+        "linkedinUrl": "https://www.linkedin.com/in/fabrices26/",
+        "websiteUrl": null
+      },
+      {
+        "photo": "images/gino-ndiko.jpg",
+        "name": "Gino Ndiko",
+        "role": "Undergraduate Researcher",
+        "dept": "Gallogly College of Engineering · Industrial & Systems Engineering",
+        "projectLabel": "Project",
+        "project": "Project TBD",
+        "tbd": true,
+        "linkedinUrl": "https://www.linkedin.com/in/gino-ndiko-4b5312233",
+        "websiteUrl": null
+      },
+      {
+        "photo": "images/maame-abena-adjeiwaa.jpg",
+        "name": "Maame Abena Adjeiwaa",
+        "role": "Undergraduate Researcher",
+        "dept": "Pre-Medicine / Pre-Medical Studies",
+        "projectLabel": "Project",
+        "project": "Project TBD",
+        "tbd": true,
+        "linkedinUrl": "https://www.linkedin.com/in/maame-abena-adjeiwaa-851437339",
+        "websiteUrl": null
+      },
+      {
+        "photo": "images/oumarou-gouba.jpg",
+        "name": "Oumarou Gouba",
+        "role": "Undergraduate Researcher",
+        "dept": "School of Library & Information Studies · Information Science & Technology",
+        "projectLabel": "Project",
+        "project": "Project TBD",
+        "tbd": true,
+        "linkedinUrl": "https://www.linkedin.com/in/oumarou-g-a1030726a",
+        "websiteUrl": null
+      },
+      {
+        "photo": "images/swelihle-mtshali.jpg",
+        "name": "Swelihle Mtshali",
+        "role": "Undergraduate Researcher",
+        "dept": "Dodge College of Arts & Sciences · Biochemistry",
+        "projectLabel": "Project",
+        "project": "\"From Vision To Action\": Strengthening Educational Policy for Equitable Development",
+        "tbd": false,
+        "linkedinUrl": "https://www.linkedin.com/in/swelihle-nyakallo-mtshali",
+        "websiteUrl": null
+      },
+      {
+        "photo": "images/tobie-dodson.jpg",
+        "name": "Tobie Dodson",
+        "role": "Undergraduate Researcher",
+        "dept": "Gallogly College of Engineering · Electrical Engineering",
+        "projectLabel": "Project",
+        "project": "Project TBD",
+        "tbd": true,
+        "linkedinUrl": "https://www.linkedin.com/in/tobie-dodson",
+        "websiteUrl": null
+      },
+      {
+        "photo": "images/wonga-nogwanya.jpg",
+        "name": "Wonga Nogwanya",
+        "role": "Undergraduate Researcher",
+        "dept": "Gallogly College of Engineering",
+        "projectLabel": "Project",
+        "project": "AI and Job Security at the University of Oklahoma",
+        "tbd": false,
+        "linkedinUrl": "https://www.linkedin.com/in/wonga-nogwanya-b790ba267",
+        "websiteUrl": null
+      }
+    ],
+    "alumni": [
+      {
+        "photo": "images/abdulmalik-shodunke.jpg",
+        "name": "AbdulMalik Shodunke",
+        "role": "Undergraduate Researcher",
+        "dept": "Gallogly College of Engineering · Computer Science",
+        "projectLabel": "Project",
+        "project": "Trust and Cognitive Shifts: How AI Reliance Reshapes Human Thinking and Decision-Making",
+        "tbd": false,
+        "linkedinUrl": "https://www.linkedin.com/in/abdulmalikshodunke",
+        "websiteUrl": "https://abdulmaliksho.vercel.app"
+      },
+      {
+        "photo": "images/carlyssa-cook.jpg",
+        "name": "Carlyssa Cook",
+        "role": "Undergraduate Researcher",
+        "dept": "Gallogly College of Engineering · Computer Science",
+        "projectLabel": "Project",
+        "project": "Project TBD",
+        "tbd": false,
+        "linkedinUrl": "https://www.linkedin.com/in/carlyssacook",
+        "websiteUrl": null
+      }
+    ]
+  },
+  "publications": {
+    "sectionLabel": "Research Output",
+    "sectionTitle": "Publications",
+    "sectionSubtitle": "Peer-reviewed papers, conference presentations, and scholarly contributions from our team.",
+    "searchPlaceholder": "Search by title, author, venue, or year…",
+    "items": [
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "From Data to Pedagogy: A Framework for Integrating the Volve Oilfield Dataset into Data Analytics and Machine Learning for Petroleum Engineering Undergraduate Curriculum",
+        "authors": "OO Mosobalaje, DI Adeniranye, PO Ojegbile, MA Aku, CS Ibeh, et al.",
+        "venue": "SPE Nigeria Annual International Conference and Exhibition · SPE-235173-MS",
+        "year": "2026",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "From Brain Drain to Brain Circulation: Harnessing Faculty Mobility for Sustainable Engineering Education in Africa",
+        "authors": "TA Musa, IS Osunbunmi, M Olayemi, OAA Eletta, Y Brijmohan, et al.",
+        "venue": "2025 World Engineering Education Forum-Global Engineering Deans Council (WEEF-GEDC)",
+        "year": "2025",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Engineering Just Futures: Preparing Undergraduate Engineers to Integrate Technical, Sociocultural, and Environmental Perspectives [Work-in-Progress]",
+        "authors": "J Pleasants, M Olayemi, BS Abbott, JM Vadjunec",
+        "venue": "ASEE Annual Conference & Exposition",
+        "year": "2025",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "WIP: The Design of a Professional Development Program for Petroleum Engineering Educators Towards Integrating Data Analytics and Machine Learning into Petroleum Engineering",
+        "authors": "OO Mosobalaje, M Olayemi",
+        "venue": "ASEE Annual Conference & Exposition",
+        "year": "2025",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Enhancing Engineering Education Through Reflective Practice in a Public University in Nigeria",
+        "authors": "D Salau, E Osho, OO Adewumi, M Olayemi",
+        "venue": "Proceedings from the International Research Symposium on Problem-Based Learning",
+        "year": "2025",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Understanding Culturally Relevant Engineering Education Practice in Nigeria: Implications for Diverse Contexts",
+        "authors": "Moses Olayemi",
+        "venue": "ASEE Annual Conference & Exposition · Portland, Oregon",
+        "year": "2024",
+        "award": "🏆 Best DEI Paper — ASEE International Division",
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Public Perception of Cement Industry Decarbonization: A Case Study of Oklahoma",
+        "authors": "SM Prigmore, M Olayemi",
+        "venue": "ASEE Midwest Section Conference",
+        "year": "2024",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "A Framework for Introducing Data Analytics and Machine Learning to Petroleum Engineering Undergraduates",
+        "authors": "OO Mosobalaje, MA Aku, TI Egbe, CS Ibeh, AO Aderibigbe, JA Ogbonna, et al.",
+        "venue": "SPE Nigeria Annual International Conference and Exhibition · D021S009R008",
+        "year": "2024",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Initiating and Sustaining International Ethnic Engineering Education Scholarly Communities in the United States",
+        "authors": "S Wei, M Olayemi",
+        "venue": "ASEE Annual Conference & Exposition",
+        "year": "2024",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Engineering Design Process through Game-Based Learning for Freshmen Engineering Students",
+        "authors": "LNN Nguyen, J Kittur, J Okolie, M Olayemi",
+        "venue": "ASEE Annual Conference & Exposition",
+        "year": "2024",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Examining the Engineering Self-Efficacy, Design Self-Efficacy, Intentions to Persist, and Sense of Belonging of First-Year Engineering Students through Community-Partnered Projects",
+        "authors": "J Kittur, M Olayemi, T Harvey, H Taffe",
+        "venue": "ASEE Annual Conference & Exposition",
+        "year": "2024",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Telling half a story: A mixed methods approach to understanding culturally relevant engineering education in Nigeria and the US",
+        "authors": "M Olayemi",
+        "venue": "ASEE Annual Conference & Exposition",
+        "year": "2023",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Work-in-Progress: A Pedagogical Unboxing of Reservoir Simulation with Python — Backward Design of Course Contents, Assessment, and Pedagogy (CAP)",
+        "authors": "OO Mosobalaje, M Olayemi",
+        "venue": "ASEE Annual Conference & Exposition",
+        "year": "2023",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "\"Say It Anyhow You Can\": Unpacking How Engineering Faculty Members Approach Culturally Relevant Engineering Education at an Iraqi University",
+        "authors": "M Olayemi, J Deboer, MJ Ahmadi",
+        "venue": "ASEE Annual Conference & Exposition",
+        "year": "2023",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "The Effect of Reflective Teaching on Student Learning Experiences: A Case Study of an Undergraduate-Level Applied Thermodynamics Course",
+        "authors": "OO Adewumi, M Olayemi, NA Raji",
+        "venue": "African Engineering Education Forum (AEEF 2023)",
+        "year": "2023",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Career Progression of Electronic Engineering Graduates: A Study of LinkedIn Career Profiles",
+        "authors": "IJF Ezika, M Olayemi, CT Orji",
+        "venue": "5th Information Technology for Education and Development (ITED)",
+        "year": "2022",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Professional Development of Secondary School STEM Educators in Sub-Saharan Africa: A Systematized Literature Review",
+        "authors": "M Olayemi, CN Vaye, V Dansu, J DeBoer",
+        "venue": "ASEE Virtual Annual Conference",
+        "year": "2021",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Enacting Culturally Relevant Pedagogy for Underrepresented Minorities in STEM Classrooms: Challenges and Opportunities",
+        "authors": "M Olayemi, J DeBoer",
+        "venue": "CoNECD (Collaborative Network for Engineering and Computing Diversity)",
+        "year": "2021",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Colonial antecedents influencing the current training and practice of STEM educators in sub-Saharan Africa",
+        "authors": "M Olayemi, J DeBoer",
+        "venue": "REES AAEE 2021 Conference: Engineering Education Research Capability Development",
+        "year": "2021",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "A self-reflection on lab mentoring practices for a diverse lab group",
+        "authors": "C Haney, C Freitas, B Drinkard-McFarland, M Olayemi, A Dridi, A Napoli, et al.",
+        "venue": "REES AAEE 2021 Conference: Engineering Education Research Capability Development",
+        "year": "2021",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Culturally Responsive Pedagogy in STEM Classrooms: Insights from Sub-Saharan Africa",
+        "authors": "Moses Olayemi",
+        "venue": "International Conference on Engineering Education (ICEE)",
+        "year": "2020",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "conference",
+        "badge": "Conference",
+        "title": "Student-Centered Learning in Post‑Conflict Environments: A Case Study of Iraq",
+        "authors": "Moses Olayemi, Ahmed Al‑Ani",
+        "venue": "ASEE Annual Conference",
+        "year": "2019",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "journal",
+        "badge": "Journal Article",
+        "title": "Ubuntu-Ẹ̀kọ́ Framework: A Four-Pillared Critical-Cultural-Contextual-Communal Model for Cultivating, Educating and Enhancing an AI-Ready African Workforce",
+        "authors": "TR Feyijimi, V Dansu, IO Osunbunmi, OI Elesemoyo, M Olayemi, et al.",
+        "venue": "Computers and Education Open · 100372",
+        "year": "2026",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "journal",
+        "badge": "Journal Article",
+        "title": "Culturally Relevant Engineering Education in the Nigerian Context",
+        "authors": "Moses Olayemi, Alice L. Pawley",
+        "venue": "Journal of Engineering Education · Vol. 112, No. 3",
+        "year": "2023",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "journal",
+        "badge": "Journal Article",
+        "title": "Decolonizing Engineering Education: Perspectives from the Global South",
+        "authors": "Moses Olayemi, Alice L. Pawley",
+        "venue": "International Journal of STEM Education · Vol. 9, Art. 45",
+        "year": "2022",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "journal",
+        "badge": "Journal Article",
+        "title": "Engineering Education for Displaced Populations: A Systematic Review",
+        "authors": "Moses Olayemi, Swelihle Mtshali (Lab UG)",
+        "venue": "Journal of Humanitarian Engineering · Vol. 8",
+        "year": "2022",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "journal",
+        "badge": "Journal Article",
+        "title": "STEM Education in Refugee Contexts: A Case Study of Kakuma Camp, Kenya",
+        "authors": "Moses Olayemi, Grace Njoroge",
+        "venue": "Journal of Refugee Studies · Vol. 34, No. 2",
+        "year": "2021",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "journal",
+        "badge": "Journal Article",
+        "title": "Measuring Children's Wellbeing in South Sudan: Tool Creation & PSS Intervention",
+        "authors": "M Olayemi, M Tucker, M Choul, T Purekal, A Benitez, W Wheaton, et al.",
+        "venue": "Journal on Education in Emergencies · Vol. 7, Issue 2, pp. 104-151",
+        "year": "2021",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "journal",
+        "badge": "Journal Article",
+        "title": "Creating a Tool to Measure Children's Wellbeing: A PSS Intervention in South Sudan",
+        "authors": "M Olayemi, M Tucker, M Choul, T Purekal, A Benitez, W Wheaton, et al.",
+        "venue": "Inter-agency Network for Education in Emergencies",
+        "year": "2021",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "journal",
+        "badge": "Journal Article",
+        "title": "Psychosocial Support for STEM Educators in Post‑Conflict Regions",
+        "authors": "Moses Olayemi, Sarah K. Benson",
+        "venue": "Educational Psychology Review · Vol. 32, Issue 1",
+        "year": "2020",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "journal",
+        "badge": "Journal Article",
+        "title": "Engineering Education for Sustainable Development in Sub‑Saharan Africa",
+        "authors": "Moses Olayemi",
+        "venue": "Sustainability · Vol. 11, No. 15",
+        "year": "2019",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "dissertation",
+        "badge": "Dissertation",
+        "title": "Understanding Culturally Relevant Engineering Education in Multiple Settings: A Case Study of Nigeria",
+        "authors": "Moses Olayemi",
+        "venue": "Purdue University · Bilsland Dissertation Fellowship",
+        "year": "2023",
+        "award": null,
+        "scholarLink": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "type": "magazine",
+        "badge": "Magazine",
+        "title": "Sustainable Aviation: The Journey to Flying Net Zero",
+        "authors": "Mercy Kokushubira (Lab Undergraduate)",
+        "venue": "OU Brainstorm Magazine · University of Oklahoma",
+        "year": "2025",
+        "award": null,
+        "scholarLink": null
+      },
+      {
+        "type": "magazine",
+        "badge": "Magazine",
+        "title": "Bridging the Gap: Engineering Education in Refugee Camps",
+        "authors": "Moses Olayemi, Bestena Kisingiri (Lab UG)",
+        "venue": "OU Research Magazine · Spring 2024",
+        "year": "2024",
+        "award": null,
+        "scholarLink": null
+      },
+      {
+        "type": "magazine",
+        "badge": "Magazine",
+        "title": "Women in Engineering: Voices from Nigeria",
+        "authors": "Moses Olayemi, Damia Francis (Lab UG)",
+        "venue": "IEEE Women in Engineering Magazine · Dec 2023",
+        "year": "2023",
+        "award": null,
+        "scholarLink": null
+      },
+      {
+        "type": "magazine",
+        "badge": "Magazine",
+        "title": "AI and the Future of Engineering Education",
+        "authors": "Moses Olayemi, AbdulMalik Shodunke (Lab UG)",
+        "venue": "EDUCAUSE Review · Nov 2023",
+        "year": "2023",
+        "award": null,
+        "scholarLink": null
+      },
+      {
+        "type": "magazine",
+        "badge": "Magazine",
+        "title": "Engineering Pathways: Building Bridges from High School to College",
+        "authors": "Moses Olayemi, Wonga Nogwanya (Lab UG)",
+        "venue": "OU College of Engineering Magazine · Fall 2024",
+        "year": "2024",
+        "award": null,
+        "scholarLink": null
+      }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Get in Touch",
+    "sectionTitleHtml": "Contact &amp; <em>Connect</em>",
+    "intro": "Whether you're a prospective student, a fellow researcher, a journalist, or a community partner — we welcome your message. We typically respond within 2–3 business days.",
+    "items": [
+      {
+        "iconType": "mail",
+        "label": "Email",
+        "value": "moses.o.olayemi@ou.edu",
+        "href": "mailto:moses.o.olayemi@ou.edu"
+      },
+      {
+        "iconType": "pin",
+        "label": "Office",
+        "value": "Felgar Hall 222H · Norman, OK 73019",
+        "href": null
+      },
+      {
+        "iconType": "building",
+        "label": "Department",
+        "value": "Engineering Pathways · Gallogly College of Engineering · University of Oklahoma",
+        "href": null
+      }
+    ],
+    "formHeading": "Send a Message",
+    "formSubtext": "We typically respond within 2–3 business days.",
+    "subjectPlaceholder": "What is this about?",
+    "subjectOptions": [
+      "Research Collaboration",
+      "Joining the Lab",
+      "Media Inquiry",
+      "Course / Teaching",
+      "General Inquiry"
+    ],
+    "submitText": "Send Message",
+    "recipientEmail": "moses.o.olayemi@ou.edu"
+  },
+  "footer": {
+    "brandName": "Dr. Mo. Lab",
+    "brandTextHtml": "Developing Researchers for Multidisciplinary Outreach<br/>University of Oklahoma · Gallogly College of Engineering<br/>Norman, Oklahoma 73019",
+    "externalLinks": [
+      {
+        "label": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=NwHD93kAAAAJ"
+      },
+      {
+        "label": "OU Engineering",
+        "href": "https://www.ou.edu/coe"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/moses-olayemi"
+      }
+    ],
+    "copyrightText": "© 2025 Dr. Mo. Lab · Dr. Moses Olayemi · University of Oklahoma ·",
+    "copyrightHighlight": "Boomer Sooner",
+    "tagline": "Developing Researchers for Multidisciplinary Outreach"
+  }
+}

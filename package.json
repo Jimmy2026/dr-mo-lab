@@ -1,0 +1,14 @@
+{
+  "name": "dr-mo-lab-cloudflare-cms",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dr. Mo. Lab static site with Pages CMS and Cloudflare Pages deployment",
+  "scripts": {
+    "build": "node generate.js content.json dist",
+    "preview": "npm run build && node preview.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+
