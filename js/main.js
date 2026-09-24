@@ -1,4 +1,4 @@
-// ---- Nav two-state behavior ----
+        // ---- Nav two-state behavior ----
         (function() {
             const nav = document.querySelector('nav');
             if (!nav) return;
@@ -13,7 +13,30 @@
             updateNav();
         })();
 
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', async function() {
+            // The section files are inserted as direct children of <main>, in page order.
+            const main = document.querySelector('main');
+            const sectionNames = ['hero', 'acronym', 'updates', 'team', 'publications', 'contact'];
+            try {
+                const html = await Promise.all(sectionNames.map(async name => {
+                    const response = await fetch(`sections/${name}.html`);
+                    if (!response.ok) throw new Error(`Could not load ${name}: ${response.status}`);
+                    return response.text();
+                }));
+                main.innerHTML = html.join('\n');
+                main.removeAttribute('aria-busy');
+            } catch (error) {
+                console.error('Could not load page sections:', error);
+                main.innerHTML = '<p role="alert" style="padding:140px 5vw;">The page could not load. Please refresh and try again.</p>';
+                main.removeAttribute('aria-busy');
+                return;
+            }
+
+            // Browsers try to follow a deep link before the section files exist.
+            if (window.location.hash) {
+                const target = document.getElementById(decodeURIComponent(window.location.hash.slice(1)));
+                if (target) target.scrollIntoView({ behavior: 'instant' });
+            }
 
             // ---- Smooth scrolling + mobile nav ----
             const mobileNav = document.getElementById('mobileNav');
@@ -109,7 +132,7 @@
                 const allCards = getAllCards();
                 filteredCards = allCards.filter(card => {
                     const matchCat = currentCategory === 'all' || card.dataset.type === currentCategory;
-                    const matchQ = !q || (card.dataset.text || '').includes(q) || card.innerText.toLowerCase().includes(q);
+                    const matchQ = !q || card.dataset.text.includes(q) || card.innerText.toLowerCase().includes(q);
                     return matchCat && matchQ;
                 });
                 if (noResults) {
@@ -178,7 +201,40 @@
             // ---- Contact form ----
             window.handleContactSubmit = function(e) {
                 e.preventDefault();
-                alert('Message sent! We\'ll respond within 2–3 business days.\n\n(Connect this form to Formspree or a WordPress plugin before going live.)');
+                const form = e.target;
+                const statusEl = document.getElementById('formStatus');
+                const btn = document.getElementById('formSubmitBtn');
+                const showStatus = (msg, ok) => {
+                    statusEl.textContent = msg;
+                    statusEl.style.display = 'block';
+                    statusEl.style.color = ok ? '#2f7d4f' : '#a12a2a';
+                };
+
+                if (form.action.includes('YOUR_FORM_ID')) {
+                    showStatus('This form isn\u2019t connected yet \u2014 see the README for the 2-minute Formspree setup.', false);
+                    return;
+                }
+
+                btn.disabled = true;
+                btn.textContent = 'Sending\u2026';
+
+                fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: { 'Accept': 'application/json' }
+                }).then(response => {
+                    if (response.ok) {
+                        showStatus('Message sent \u2014 we\u2019ll respond within 2\u20133 business days.', true);
+                        form.reset();
+                    } else {
+                        showStatus('Something went wrong sending your message. Please try again or email us directly.', false);
+                    }
+                }).catch(() => {
+                    showStatus('Something went wrong sending your message. Please try again or email us directly.', false);
+                }).finally(() => {
+                    btn.disabled = false;
+                    btn.textContent = 'Send Message';
+                });
             };
 
             // ---- Graceful fallback for missing images ----

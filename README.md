@@ -1,113 +1,39 @@
-# Dr. Mo. Lab — Cloudflare Pages + Pages CMS
+# Dr. Mo. Lab
 
-This is the deployable version of the Dr. Mo. Lab website. It uses:
+Website for Dr. Moses Olayemi’s research group at the University of Oklahoma. It has one scrolling page with sections for lab news, people, publications, and contact information.
 
-- **Cloudflare Pages** for free hosting at a `*.pages.dev` address.
-- **GitHub** to store the site and content.
-- **Pages CMS** for a visual web editor.
+The site is plain HTML, CSS, and JavaScript. There is no CMS or build step.
 
-You do not need WordPress, a database, or a custom domain.
+## Where things are
 
-## How publishing works
+- `index.html` contains the navigation, footer, and links to the site files.
+- `sections/` contains the six page sections: `hero.js`, `acronym.js`, `updates.js`, `team.js`, `publications.js`, and `contact.js`.
+- `css/styles.css` controls the appearance and mobile layout.
+- `js/main.js` puts the sections on the page and handles navigation, animations, and publication search.
+- `images/` contains the logo, backgrounds, and team photos.
 
-1. Edit text, people, publications, links, or images at [app.pagescms.org](https://app.pagescms.org/).
-2. Select **Save**.
-3. Pages CMS saves the change to your GitHub repository.
-4. Cloudflare notices the GitHub change, rebuilds the site, and publishes it automatically.
+The section files have a `.js` extension, but the content between the backticks is HTML. You can edit that content directly. Leave the backticks and each section’s outer `<section id="...">` tag in place.
 
-The editable content is in `content.json`. The editor setup is in `.pages.yml`.
+## Making changes
 
-## First-time setup
+**News:** Edit `sections/updates.js`. The larger stories use `update-featured`; the shorter items use `update-mini`. Copy an existing item if you need another one.
 
-### 1. Put this folder in a GitHub repository
+**Team:** Edit `sections/team.js`. Current members and alumni are in separate parts of the file. Copy an existing `member-card` into the appropriate group, then change the name, role, project, links, and photo. Put new photos in `images/` and use a path such as `images/person-name.jpg`.
 
-Create a new repository at [github.com/new](https://github.com/new). A public repository is simplest, but Cloudflare Pages can also connect to a private repository.
+**Publications:** Edit `sections/publications.js`. Copy a `pub-card` and update its title, authors, venue, year, link, `data-text`, and `data-type`. The category numbers near the top of that file are written manually, so update those when you add or remove a publication.
 
-Unzip this package and upload **the contents of this folder** to the repository. Make sure the hidden file `.pages.yml` is included. On macOS, press **Command + Shift + .** in Finder to show hidden files.
+**Contact information:** Edit `sections/contact.js`. If the email address changes, update both the visible address and the `mailto:` link.
 
-If you already use Git from a terminal, run these commands from this folder after replacing the repository URL:
+For changes to colors, spacing, or fonts, use `css/styles.css`. For navigation or publication search behavior, use `js/main.js`.
 
-```bash
-git init
-git add .
-git commit -m "Initial Dr. Mo. Lab site"
-git branch -M main
-git remote add origin https://github.com/YOUR-NAME/YOUR-REPOSITORY.git
-git push -u origin main
-```
+## Previewing the site
 
-### 2. Connect the repository to Cloudflare Pages
+Open `index.html` in a browser. Save your changes and refresh the page to see them. Keep `index.html`, `sections/`, `css/`, `js/`, and `images/` together in the same folder.
 
-1. Sign in at [dash.cloudflare.com](https://dash.cloudflare.com/).
-2. Open **Workers & Pages** and create a Pages project using **Git integration**.
-3. Connect GitHub and select the repository from step 1.
-4. Use these build settings:
+Before publishing, check the page at desktop and phone widths. Test the section links, publication search and filters, photos, and email link.
 
-| Setting | Value |
-| --- | --- |
-| Production branch | `main` |
-| Framework preset | None |
-| Build command | `npm run build` |
-| Build output directory | `dist` |
-| Root directory | Leave blank |
+## Publishing
 
-5. Select **Save and Deploy**.
+The Cloudflare Pages site is connected to the GitHub repository. Update the files in your local copy of that repository, commit, and push to its production branch. Cloudflare will deploy the new commit.
 
-Cloudflare will give you a free address similar to:
-
-```text
-https://your-project-name.pages.dev
-```
-
-No custom domain is required. Every later save from the CMS triggers another deployment.
-
-### 3. Open the CMS
-
-1. Go to [app.pagescms.org](https://app.pagescms.org/).
-2. Sign in with GitHub.
-3. Install/authorize the Pages CMS GitHub App for this repository.
-4. Open the repository and choose the `main` branch.
-5. Open **Website Content**, make a change, and select **Save**.
-
-Cloudflare usually starts the new deployment within seconds. Check the **Deployments** tab in Cloudflare if the live site has not changed yet.
-
-## Preview on your computer
-
-Install [Node.js](https://nodejs.org/) version 18 or newer. Open a terminal in this folder and run:
-
-```bash
-npm run preview
-```
-
-Then visit [http://localhost:4173](http://localhost:4173). Press **Ctrl+C** in the terminal to stop the preview.
-
-The included `admin.html` is the original offline editor. It can still be opened directly, but it does not publish. For normal editing after setup, use Pages CMS.
-
-## Content and image notes
-
-- Upload images through the CMS image fields; they are stored in `images/`.
-- Daniel Pelumi's source photo was not included in the original upload, so his card shows the initials **DP**. Upload his photo under **Team → Current Members → Daniel Pelumi → Photo** when it is available.
-- HTML is intentionally allowed in fields labeled **HTML** so the existing italic and line-break styling remains intact.
-- Use full links beginning with `https://` for external URLs.
-- Use section links such as `#team` and `#publications` for buttons that jump within the page.
-- Empty optional fields can be left blank.
-
-## Important: contact form behavior
-
-The website is static. The contact form currently opens the visitor's email app using the recipient address in `content.json`; it does not store messages or send mail from Cloudflare. A serverless form handler can be added later if you want submissions to work without opening an email app.
-
-## Troubleshooting
-
-- **Cloudflare build fails:** confirm the build command is `npm run build`, the output directory is `dist`, and the repository includes `package.json`.
-- **CMS shows no editable content:** confirm `.pages.yml` is at the repository root and you opened the same branch Cloudflare deploys.
-- **A new image is missing:** save the CMS entry, wait for the Cloudflare deployment to finish, then hard-refresh the site.
-- **The live site did not update:** open Cloudflare's deployment log and confirm the latest GitHub commit was built successfully.
-
-For the original standalone editor instructions, see `README-PORTABLE.md`.
-
-## Official setup references
-
-- [Cloudflare Pages Git integration](https://developers.cloudflare.com/pages/get-started/git-integration/)
-- [Cloudflare Pages limits](https://developers.cloudflare.com/pages/platform/limits/)
-- [Pages CMS quick start](https://pagescms.org/docs/quick-start/)
-- [Pages CMS configuration](https://pagescms.org/docs/configuration/)
+Keep `index.html` at the repository’s site root, alongside `sections/`, `css/`, `js/`, and `images/`. Copy the contents of the site folder into the repository, rather than adding the folder as another level above `index.html`.
